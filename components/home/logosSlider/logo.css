@@ -36,3 +36,9 @@
     ); /* Adjust to match the number of duplicated images */
   }
 }
+
+@media screen and (max-width: 800px) {
+  .logoSlider {
+    height: 80px;
+  }
+}
