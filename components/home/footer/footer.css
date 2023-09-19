@@ -1,3 +1,6 @@
+ul li {
+  cursor: pointer;
+}
 .footer {
   background: #f0f0f0;
 }

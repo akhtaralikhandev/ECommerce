@@ -2,7 +2,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="navbarWrapper cursor-pointer flex items-center justify-between md:justify-center md:gap-8 leftPadding rightPadding topPadding bottomPadding">
+            <div className="navbarWrapper  cursor-pointer flex items-center justify-between md:justify-center md:gap-8 leftPadding rightPadding topPadding bottomPadding">
                 <span className="logo">
                     SHOP.CO
                 </span>
