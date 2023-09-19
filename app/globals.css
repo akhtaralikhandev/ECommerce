@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leftPadding {
+  padding-left: 60px;
+}
+.rightPadding {
+  padding-right: 60px;
+}
+.topPadding {
+  padding-top: 20px;
+}
+.bottomPadding {
+  padding-bottom: 20px;
+}
+.marginLeft {
+  margin-left: 60px;
+}
+.marginRight {
+  margin-right: 60px;
+}
+.marginTop {
+  margin-top: 60px;
+}
+.marginBottom {
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 800px) {
+  .leftPadding {
+    padding-left: 20px;
+  }
+  .rightPadding {
+    padding-right: 20px;
+  }
+}

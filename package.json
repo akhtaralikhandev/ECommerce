@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

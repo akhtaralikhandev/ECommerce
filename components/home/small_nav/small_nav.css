@@ -1,0 +1,42 @@
+.small_nav {
+  height: 38px;
+  padding: 9px 100px 9px 544px;
+  gap: 425px;
+  flex-shrink: 0;
+  background: #000;
+}
+.left {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signUpNow {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+@media screen and (max-width: 800px) {
+  .left {
+    color: #fff;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .signUpNow {
+    color: #fff;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+}

@@ -1,0 +1,48 @@
+.logo {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar_li {
+  color: #000;
+  /* font-family: Satoshi; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.input_boundary {
+  display: flex;
+  padding: 6px 16px;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 62px;
+  background: #f0f0f0;
+}
+.navbar_input_search {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar_search_input {
+  background: #f0f0f0;
+  outline: none;
+}
+@media screen and (max-width: 800px) {
+  .navbar_search_input {
+    display: none;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .input_boundary {
+    display: none;
+  }
+}

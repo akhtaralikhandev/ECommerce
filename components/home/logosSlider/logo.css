@@ -1,0 +1,38 @@
+.logoSlider {
+  /* width: 1440px; */
+  width: 100%;
+  height: 122px;
+  flex-shrink: 0;
+  background: #000;
+}
+/* Add this to your stylesheet */
+/* Add this to your stylesheet */
+/* Add this to your stylesheet */
+
+.logoSlider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logoSliderWrapper {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.logoSliderWrapper img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; /* Adjust the margin between images as needed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Adjust to match the number of duplicated images */
+  }
+}
