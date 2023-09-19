@@ -1,7 +1,7 @@
 import './hero.css'
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero md:pb-0 pb-14">
             <div className="heroWrapper leftPadding flex flex-col gap-6  pt-24  rightPadding">
                 <div className="find_clothes flex flex-col">
                     <span>FIND CLOTHES</span>
