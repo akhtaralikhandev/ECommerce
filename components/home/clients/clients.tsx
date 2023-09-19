@@ -18,10 +18,10 @@ const Client = () => {
                             <img src="/images/stars/tick.png" alt="" />
                         </div>
                         <div className='flex flex-col'>
-                            I'm blown away by the quality and style of the
+                            {`I'm blown away by the quality and style of the
                             clothes I received from Shop.co. From casua
                             wear to elegant dresses, every piece I've bought
-                            as exceeded my expectations.
+                            as exceeded my expectations.`}
                         </div>
                     </div>
                     <div className="card_client">
@@ -37,10 +37,10 @@ const Client = () => {
                             <img src="/images/stars/tick.png" alt="" />
                         </div>
                         <div className='flex flex-col'>
-                            I'm blown away by the quality and style of the
+                            {`I'm blown away by the quality and style of the
                             clothes I received from Shop.co. From casua
                             wear to elegant dresses, every piece I've bought
-                            as exceeded my expectations.
+                            as exceeded my expectations. `}
                         </div>
                     </div>
                     <div className="card_client">
@@ -56,10 +56,11 @@ const Client = () => {
                             <img src="/images/stars/tick.png" alt="" />
                         </div>
                         <div className='flex flex-col'>
-                            I'm blown away by the quality and style of the
+                            {` I'm blown away by the quality and style of the
                             clothes I received from Shop.co. From casua
                             wear to elegant dresses, every piece I've bought
-                            as exceeded my expectations.
+                            as exceeded my expectations. `}
+
                         </div>
                     </div>
                 </div>

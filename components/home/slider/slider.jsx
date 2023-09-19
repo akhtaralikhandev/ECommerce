@@ -83,9 +83,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {`  I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations.`}
             </div>
           </div>
           <div className="card_client m-2 w-32">
@@ -101,9 +101,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {` I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations. `}
             </div>
           </div>
           <div className="card_client m-2 w-32">
@@ -119,9 +119,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {`     I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations.`}
             </div>
           </div>
           <div className="card_client m-2">
@@ -137,9 +137,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {` I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations. `}
             </div>
           </div>
           <div className="card_client m-2">
@@ -155,9 +155,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {`    I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations.`}
             </div>
           </div>
           <div className="card_client m-2">
@@ -173,9 +173,9 @@ export default class PauseOnHover extends Component {
               <img src="/images/stars/tick.png" alt="" />
             </div>
             <div className="flex flex-col">
-              I'm blown away by the quality and style of the clothes I received
+              {`I'm blown away by the quality and style of the clothes I received
               from Shop.co. From casua wear to elegant dresses, every piece I've
-              bought as exceeded my expectations.
+              bought as exceeded my expectations. `}
             </div>
           </div>
         </Slider>
