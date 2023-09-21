@@ -1,4 +1,5 @@
 import './navbar.css'
+import Link from 'next/link'
 const Navbar = () => {
     return (
         <div className="navbar">
@@ -21,7 +22,8 @@ const Navbar = () => {
                 </div>
                 <div className="carts_images flex items-center justify-center gap-2">
                     <img className=' md:hidden block' src="/images/navbar/search_bar.png" alt="" />
-                    <img src="/images/navbar/shoping_cart.png" alt="" />
+                    <Link href={"/cart"}>                    <img src="/images/navbar/shoping_cart.png" alt="" />
+                    </Link>
                     <img src="/images/navbar/person.png" alt="" />
                 </div>
             </div>

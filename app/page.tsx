@@ -19,10 +19,8 @@ export default function Home() {
       <ShoppingList />
       <TopSelling />  <BrowseByStyle />
       <SwipeToSlide />
-
       <StayUptoDate />
       <Footer />
-
     </div>
   )
 }

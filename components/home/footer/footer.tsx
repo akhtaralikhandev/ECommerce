@@ -1,14 +1,14 @@
 import './footer.css'
 const Footer = () => {
     return (
-        <div className="footer">
-            <div className="footerWrapper flex gap-12 flex-col flex-wrap  items-start  pt-20 pb-20 leftPadding rightPadding">
+        <div className="footer_">
+            <div className="footerWrapper_ flex gap-12 flex-col flex-wrap  items-start  pt-20 pb-20 leftPadding rightPadding">
                 <div className='flex md:gap-48 gap-24 flex-wrap md:flex-nowrap  items-start '>
                     <div className='flex flex-col gap-4 items-start'>
                         <span className="shop_co">SHOP.CO</span>
                         <div className="shop_co_span flex flex-col">
                             <span>We have clothes that suits your style and </span>
-                            <span>{"which you’re proud to wear. From"}</span>
+                            <span>{`which you're proud to wear. From`}</span>
                             <span>women to men.</span>
                         </div>
                         <div className='flex gap-8 items-center justify-center'>
