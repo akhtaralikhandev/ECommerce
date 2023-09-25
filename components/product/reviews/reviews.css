@@ -67,3 +67,30 @@
   font-weight: 500;
   line-height: normal;
 }
+
+@media screen and (max-width: 800px) {
+  .card_ {
+    width: 400px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card_ {
+    width: 300px;
+    height: auto;
+  }
+  .write_a_review {
+    display: inline-flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+  }
+}

@@ -4,9 +4,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbarWrapper  cursor-pointer flex items-center justify-between md:justify-center md:gap-8 leftPadding rightPadding topPadding bottomPadding">
-                <span className="logo">
+                <Link href={"/"}><span className="logo">
                     SHOP.CO
-                </span>
+                </span> </Link>
                 <ul className="ul hidden md:flex items-center justify-center md:gap-4">
                     <li className='flex items-center justify-center gap-2'>
                         <span className='navbar_li'>Shop</span>

@@ -15,9 +15,9 @@ const Reviews = () => {
                         <span>{`(451)`}</span>
                     </div>
                     <div className='flex items-center gap-14'>
-                        <button>
+                        {/* <button>
                             <img src="/images/reviews/latest.png" alt="" />
-                        </button>
+                        </button> */}
                         <button>
                             lastest <img src="/images/reveiews/arrow_down.png" alt="" />
                         </button>

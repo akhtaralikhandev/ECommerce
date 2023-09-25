@@ -154,6 +154,21 @@
   font-weight: 500;
   line-height: normal;
 }
+@media screen and (max-width: 800px) {
+  .add_to_cart {
+    display: flex;
+    width: 236px;
+    height: 44px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    background: #000;
+  }
+}
+
 .cart_number {
   display: flex;
   width: 170px;

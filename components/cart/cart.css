@@ -162,3 +162,47 @@
 .input_cart_apply {
   background: #f0f0f0;
 }
+
+@media screen and (max-width: 800px) {
+  .cart_card1 {
+    width: 400px;
+  }
+  .cart_card2 {
+    width: 400px;
+  }
+  .your_cart {
+    color: #000;
+    font-family: Integral CF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .apply_ {
+    display: flex;
+    width: 88px;
+    height: 48px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .checkout_cart {
+    display: flex;
+    height: 60px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+  .input_promo {
+    display: flex;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+  }
+}

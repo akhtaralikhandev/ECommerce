@@ -5,9 +5,9 @@ const MainComponent = () => {
         <div className="main_ mt-14 overflow-hidden">
             <div className="mainWrapper leftPadding rightPadding">
                 <div className="line"></div>
-                <div className='flex gap-14 mt-8'>
-                    <div className='flex flex-shrink-0 items-start justify-start gap-4'>
-                        <div className='flex flex-col gap-4'>
+                <div className='flex gap-4 md:flex-nowrap flex-wrap md:gap-14 mt-8'>
+                    <div className='flex flex-shrink-0 md:flex-row flex-col-reverse  items-start justify-start gap-4'>
+                        <div className='flex flex-row md:flex-col gap-4'>
                             <img className='img' src="/images/product/dress4.png" alt="" />
                             <img className='img' src="/images/product/dress2.png" alt="" />
                             <img className='img' src="/images/product/dress3.png" alt="" />

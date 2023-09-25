@@ -29,3 +29,11 @@
   font-weight: 700;
   line-height: normal;
 }
+
+/* @media screen and (max-width: 800px) {
+  .card_client {
+    width: 210px;
+    height: auto;
+    padding: ;
+  }
+} */

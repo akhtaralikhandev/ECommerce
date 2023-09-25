@@ -4,8 +4,8 @@ const Cart = () => {
         <div className="cart mb-48">
             <div className="cartWrapper leftPadding rightPadding mt-12">
                 <span className="your_cart">Your cart</span>
-                <div className='mt-14 flex items-start gap-8'>
-                    <div className='cart_card1 h-full'>
+                <div className='mt-14 flex lg:flex-nowrap flex-wrap items-start gap-8'>
+                    <div className='cart_card1 flex-wrap h-full'>
                         <div className='flex items-center justify-between w-full'>
                             <div className='flex gap-8'>
                                 <div>
